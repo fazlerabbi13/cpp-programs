@@ -5,6 +5,12 @@ using namespace std;
 int main(){
     vector<int> numbers = {1,2,3,4,5,6,7,8,9};
 
+    numbers[2]=5;
+
+    for(int i=0;i<=numbers.size();i++){
+        cout<<numbers[i]<<"\n";
+    }
+
     cout<<numbers.front()<<"\n";
     cout<<numbers.back()<<"\n";
 
