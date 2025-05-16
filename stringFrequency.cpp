@@ -7,14 +7,12 @@ int main() {
     string s;
     cin >> s;
 
-    vector<int> freq(128, 0);  // to store frequency of all ASCII characters
+    vector<int> freq(128, 0);  
 
-    // Count frequency of each character
     for (char c : s) {
         freq[(int)c]++;
     }
 
-    // Find the character with the highest frequency and lowest ASCII if tied
     char result = 0;
     int maxFreq = 0;
 
