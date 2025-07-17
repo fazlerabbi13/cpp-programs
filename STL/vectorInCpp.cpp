@@ -8,8 +8,9 @@ int main(){
 
     vector<int> vec1;
     vec1.push_back(2);
-    
+
     cout<<vec1.size()<<"\n";
+    cout<<vec1.capacity()<<"\n";
     
     for(int i=0;i<vec.size();i++){
         cout<<vec[i]<<" ";
